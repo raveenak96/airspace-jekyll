@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Our Work
-permalink: /work/
+title: Projects
+permalink: /projects/
 ---
+{% include header.html %}
 
     <!-- Slider Start -->
 <section id="global-header">
@@ -10,8 +11,8 @@ permalink: /work/
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h1>Just some of our latest projects.</h1>
-                    <p>Don’t just take our word for it. Check out some of our latest work.</p>
+                    <h1>Some of my latest projects</h1>
+                    <!--<p>Don’t just take our word for it. Check out some of our latest work.</p>-->
                 </div>
             </div>
         </div>
@@ -25,35 +26,36 @@ permalink: /work/
             <div class="block">
               <div class="portfolio-menu">
                 <ul>
-                    <li class="filter" data-filter="all">Everything</li>
-                    <li class="filter" data-filter=".Branding">Branding</li>
-                    <li class="filter" data-filter=".Websites">Websites</li>
-                    <li class="filter" data-filter=".Graphic">Graphic</li>
-                    <li class="filter" data-filter=".design">design</li>
-                    <li class="filter" data-filter=".Video">Video</li>
+                    <li class="filter" data-filter="all">All</li>
+                    <li class="filter" data-filter=".NLP">NLP</li>
+                    <li class="filter" data-filter=".Drivers">Computer Vision</li>
+                    <li class="filter" data-filter=".Graphic">Recommender Systems</li>
+                    <li class="filter" data-filter=".design">Operating Systems</li>
+                    <li class="filter" data-filter=".Misc">Misc</li>
+
                 </ul>
               </div>
               <div class="portfolio-contant">
                 <ul id="portfolio-contant-active">
-                    <li class="mix Branding">
+                    <li class="mix NLP">
                       <a href="#">
-                        <img src="{{ site.baseurl }}/img/portfolio/work1.jpg" alt="">
+                        <img src="{{ site.baseurl }}/img/portfolio/election.jpg" alt="">
                         <div class="overly">
                           <div class="position-center">
-                            <h2>Tesla Motors</h2>
-                            <p>Labore et dolore magna aliqua. Ut enim ad </p>
+                            <h2>Democratic Debate</h2>
+                            <p>Sentiment Analysis on 2nd Dem Debate </p>
 
                           </div>
                         </div>
                       </a>
                   </li>
-                  <li class="mix Websites">
+                  <li class="mix NLP">
                     <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work2.jpg" alt="">
+                      <img src="{{ site.baseurl }}/img/portfolio/chatbot.png" alt="">
                       <div class="overly">
                         <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
+                          <h2>Chatbot</h2>
+                          <p>Chatbot designed to find answers to Stack Overflow questions. </p>
 
                         </div>
                       </div>
@@ -61,48 +63,49 @@ permalink: /work/
                   </li>
                   <li class="mix Graphic">
                     <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work3.jpg" alt="">
+                      <img src="{{ site.baseurl }}/img/portfolio/movies.jpg" alt="">
                       <div class="overly">
                         <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
+                          <h2>Movie Recommender System</h2>
+                          <p>Recommendations based on Collaborative Filtering Algorithms</p>
 
                         </div>
                       </div>
 
+                    </a>
+                  </li>
+                 
+                  <li class="mix Drivers">
+                    <a href="#">
+                      <img src="{{ site.baseurl }}/img/portfolio/drivers.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>Distracted Drivers</h2>
+                          <p>Image Classification of Distracted Drivers </p>
+
+                        </div>
+                      </div>
                     </a>
                   </li>
                   <li class="mix design">
-                    <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work4.jpg" alt="">
-                      <div class="overly">
-                        <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
+                      <a href="#">
+                        <img src="{{ site.baseurl }}/img/portfolio/resolver.jpg" alt="">
+                        <div class="overly">
+                          <div class="position-center">
+                            <h2>DNS Resolver</h2>
+                            <p>Multithreaded application for performing DNS Lookup </p>
+  
+                          </div>
                         </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="mix Video">
+                      </a>
+                    </li>
+                  <li class="mix design">
                     <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work5.jpg" alt="">
+                      <img src="{{ site.baseurl }}/img/portfolio/algo.jpg" alt="">
                       <div class="overly">
                         <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="mix Graphic">
-                    <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work6.jpg" alt="">
-                      <div class="overly">
-                        <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
+                          <h2>Paging Algorithm</h2>
+                          <p>Predictive page replacement algorithm</p>
 
                         </div>
                       </div>
@@ -116,7 +119,7 @@ permalink: /work/
     </div>
 </section>
 
-<!-- Clients Logo Section Start -->
+<!-- Clients Logo Section Start 
 <section id="clients-logo-section">
   <div class="container">
     <div class="row">
@@ -164,10 +167,10 @@ permalink: /work/
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
 
-<!-- Call to action Start -->
+<!-- Call to action Start 
 <section id="call-to-action">
   <div class="container">
     <div class="row">
@@ -180,4 +183,4 @@ permalink: /work/
       </div>
     </div>
   </div>
-</section>
+</section>-->
